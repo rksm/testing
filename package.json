@@ -1,0 +1,32 @@
+{
+  "name": "rksm--testing",
+  "author": {
+    "name": "rksm"
+  },
+  "description": "testing",
+  "scripts": {
+    "build": "rm -rf build/* && export MINIFY='' && ./tools/build.sh",
+    "build-minified": "rm -rf build/* && export MINIFY=true && ./tools/build.sh"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-export-default": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.9.0"
+  },
+  "lively": {
+    "projectDependencies": [],
+    "boundLivelyVersion": "0d9dca584ade05baa549e2b4f8be43d2f9644b3f",
+    "repositoryIsPrivate": false,
+    "repoBelongsToOrg": false,
+    "testOnPush": true,
+    "buildOnPush": false,
+    "deployOnPush": false,
+    "canUsePages": true
+  },
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rksm/testing"
+  }
+}
